@@ -1,0 +1,25 @@
+{
+	"name": "markdown-themed-images",
+	"displayName": "Markdown Themed Images",
+	"description": "Allows hiding/showing images in the Markdown preview based on the active color theme.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.62.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lostintangent/vscode-themed-images"
+	},
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"markdown.previewStyles": ["./style.css"]
+	},
+	"scripts": {
+		"package": "vsce package"
+	},
+	"devDependencies": {
+		"vsce": "^2.5.0"
+	}
+}
